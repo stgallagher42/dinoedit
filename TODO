@@ -1,0 +1,27 @@
+Dinoedit thoughts
+
+# Naming. I'm thinking "ConTEXT"? Caps?
+Dino is cute, but sounds cheesy..
+
+
+# Context menus
+ Need them. We have none. Copy and paste would be nice. So would undo and redo.
+ One on the file list too - save, close, rename, rename file..
+
+# Supertools
+I like the little name for this one.. Anyway, we should include some tools that help the average user. I'm thinking maybe something like:
+
+Merge and Split
+	by line, character, block, regex..
+	maybe by "model" - some predefined text that would repeat and define merge and split?
+
+Regexes - find and replace
+	Hopefully the user could do a lot of text without much intervention
+	maybe cool features like each x-many lines or bytes? A specific place in a block or something like that?
+
+Bookmarks
+	These need to be able to move across blocks. We may or may not need to save these. This is probably a minor issue.
+
+Syntax Highlighting
+	This could be intricate, but maybe we shouldn't assume code. Probably something more flexible, like a certain column or row?
+	Datatype assertion would be nice. Highlight what isn't a digit, for example.
