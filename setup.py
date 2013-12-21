@@ -2,9 +2,8 @@
 # -*- coding: utf-8 -*-
 
 from distutils.core import setup
-setup(name='Dinoedit',
-      version='0.1.2',
-      packages=[''],
-      package_dir={'': ''},
-      package_data={'': ['dinoedit.ui']},
-      )
+setup(name='dinoedit',
+    version='0.1.2',
+    packages=['dinoedit'],
+    package_data={'dinoedit': ['dinoedit.ui']},
+    )
